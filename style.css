@@ -1,0 +1,80 @@
+body{
+    background: rgb(18,196,148);
+    background: linear-gradient(35deg, rgba(18,196,148,1) 0%, rgba(42,135,178,1) 50%, rgba(137,63,102,1) 90%);
+}
+
+.in{
+    border:1px solid #1c1d1f;
+    border-radius: 20px;
+    width: 74%;
+    padding: 9px 15px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Calibri";
+    font-size: 16px;
+}
+
+.in:focus {
+    outline: none;
+}
+
+.form{
+    padding: 2%;
+    width: 50%;
+    margin-top: 1.5vh;
+    margin-left: 25%;
+    min-height: 85vh;
+    background-color: snow;
+    border-radius: 20px;
+}
+.button{
+    background: #19c88f;
+    border-radius: 20px;
+    padding: 9px 10px;
+    border:1px solid #1c1d1f;
+    width: 25.3%;
+    position: relative;
+    font-family: "Calibri";
+    font-size: 16px;
+    color: #1c1d1f;
+}
+.button:hover{
+    background: #32a983;
+}
+.button:active{
+    background: snow;
+}
+
+.container_messages {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.messages{
+    border-radius: 20px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 90%;
+    height: 80vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    word-break:break-all;
+}
+.message{
+    width: fit-content;
+    margin: 1.5%;
+    background-color: snow;
+    border-radius: 20px;
+    padding: 5px 12px 8px 12px;
+    font-family: "Calibri";
+    font-size: 16px;
+    opacity: 93%;
+}
+
+::-webkit-scrollbar
+{
+    width: 0px;
+}

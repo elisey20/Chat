@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <link href="favicon.ico" rel="icon" type="image/x-icon">
+  <meta charset="UTF-8">
+  <title>Чат</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="setFocus()">
+<script src="script.js"></script>
+<div class="form" id="form">
+
+  <div class="messages">
+    <div class="container_messages">
+    <div id="messages"></div>
+    <div class="wrapper_ScrollBottom"></div>
+    </div>
+  </div>
+
+  <input type="text" placeholder="Введите сообщение" class="in" id="in">
+  <input class="button" value="Отправить" onclick="ShowMessage()" type="button">
+</div>
+
+</body>
+</html>
